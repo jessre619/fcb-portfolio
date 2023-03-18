@@ -1,0 +1,41 @@
+/* asterisk(*) / Universal Selector or select all */
+/*To access tag is type lang agad*/
+/*To access class is Period(.) then class name*/
+/*To access id we use hashtag(#) */
+*{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+
+h1, p{
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile{
+	height: 250px;
+	width: 250px;
+
+	/*makes the image into a circle*/
+	border-radius: 50%;
+	border-color: violet;
+	border-width: 10px;
+	border-style: solid;
+}
+
+/*https://www.svgbackgrounds.com/ makes backgrounds*/
+
+body{
+	background-image: url("images/background.png");
+}
+
+#landing{
+/*vh = view height it means percentage height of the screen	*/
+	height: 90vh;
+
+/*align items in 1 column only, then position all included contents in center	*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
